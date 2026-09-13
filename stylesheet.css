@@ -137,3 +137,63 @@ a:hover
     color: white;
     padding: 20px;
 }
+
+/*-----------contact page---------------------------------*/
+.container-contact
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    padding: 60px
+}
+.title-contact
+{
+    margin-top: 60px;
+    text-align: center;
+    
+}
+.contact-form
+{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    padding: 30px;
+    background-color: rgba(6, 111, 171, 0.51);
+    border-radius: 10px;
+  
+    color: #f5fafa;
+
+
+
+}
+.contact-form input,textarea
+{
+    padding: 5px;
+    border:1px solid rgba(20, 5, 5, 0.51);
+    border-radius: 5px;
+   
+
+
+
+}
+.contact-form label
+{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 10px;
+}
+
+    
+.send-button
+{
+    padding: 7px;
+    border: 1px solid rgba(20, 5, 5, 0.51);
+    border-radius: 5px;
+   background-color:  #f5fafa;
+    margin-top: 15px;
+    
+
+
+}
